@@ -1,7 +1,7 @@
  {
     "name": "Agencia Web",
     "short_name": "Ronny Desing",
-    "start_url": "index.html/?utm_source=web_app_manifest",
+    "start_url": "index.html",
     "background_color": "rgb(6, 148, 13)",
     "theme_color": "rgb(6, 148, 13)",
     "display": "standalone",
