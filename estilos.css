@@ -360,4 +360,138 @@
     .iconos{
       margin: auto;
     }
+  
+
   }
+   
+
+.fab-marker {
+  width: 50px;
+  height: 50px;
+  background-color: var(--color2);
+  border-radius: 50%;
+  box-shadow: 0 2px 6px 0 #666;
+  transition: all 0.1s ease-in-out;
+
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 55px;
+
+  position: fixed;
+  left: 20px;
+  bottom: 50px;
+}
+
+.fab-photo {
+  width: 50px;
+  height: 50px;
+  background-color:var(--color2);
+  border-radius: 50%;
+  box-shadow: 0 2px 6px 0 #666;
+  transition: all 0.1s ease-in-out;
+
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+
+  position: fixed;
+  left: 80px;
+  bottom: 50px;
+}
+
+.fab-battery{
+  width: 50px;
+  height: 50px;
+  background-color:var(--color2);
+  border-radius: 50%;
+  box-shadow: 0 2px 6px 0 #666;
+  transition: all 0.1s ease-in-out;
+
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+
+  position: fixed;
+  left: 140px;
+  bottom: 50px;
+
+}
+
+
+ .funcionalidades{
+  margin-bottom: 20px ;
+} 
+
+/* Modal */
+#modal { 
+  position: fixed;
+  top: 1000px;
+  height: 100%;
+  width: 100%;
+  background-color: #ecf0f1;
+  z-index: 999;
+  opacity: 0;
+}
+
+.modal-mapa {
+  margin-top: 10px;
+  width: 100%;
+  border: 5px solid white;
+  /* outline: 5px solid white; */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+.controls {
+  text-align: center;
+  padding: 0.5em 0;
+  background:var(--color2);
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.camara h1{
+  font-size: var(--titulos);
+  color: var(--color1);
+  margin-bottom: var(--espacios);
+  text-align: center;
+
+}
+
+.camara h3 {
+  font-size: var(--subtitulos);
+  font-weight: 300;
+  color: var(--color1);
+  text-align: center; 
+
+}
+
+.bateria h1 {
+  font-size: var(--titulos);
+  color: var(--color1);
+  margin-bottom: var(--espacios);
+  text-align: center;
+}
+
+#charging, #level, #dischargingTime{
+  font-size: var(--subtitulos);
+  font-weight: 300;
+  color: var(--color1);
+  text-align: left;
+}
+
+
+
+
+
+
+

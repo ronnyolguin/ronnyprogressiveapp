@@ -23,7 +23,7 @@
         {
             "src": "favicon/mstile-150x150.png",
             "type": "image/png",
-            "sizes": "150x150"
+            "sizes": "270x270"
         },
         {
             "src": "favicon/android-chrome-192x192.png",
@@ -39,7 +39,8 @@
             "src": "favicon/apple-touch-icon.png",
             "type": "image/png",
             "sizes": "180x180"
-        } 
+        }
+        
       ]
 
 

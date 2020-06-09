@@ -65,3 +65,4 @@ window.addEventListener('resize', function(){
 abrir.addEventListener('click', function(){
     apertura();
 });
+
